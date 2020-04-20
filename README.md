@@ -18,4 +18,14 @@ It is a fully managed, fast and scalable NoSQL database solution that delivers r
 - It can handle more than 10 Trillion requests per day
 - can support peaks of 20 millions requests per second
 
+### STEPS:
+Download required libraries : 
+1) Download and unpack the module code by running the following command in the AWS Cloud9 terminal
+'''
+curl -sL https://s3.amazonaws.com/ddb-deep-dive/dynamodb.tar | tar -xv
+'''
 
+2) To install Boto 3, run the following command in the AWS Cloud9 terminal.
+'''
+sudo pip install boto3
+'''
